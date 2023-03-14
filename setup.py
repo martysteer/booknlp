@@ -10,9 +10,9 @@ setup(name='booknlp',
 	include_package_data=True, 
 	license="MIT",
 	install_requires=['torch>=1.7.1',
-					  'tensorflow>=1.15',
+					  'tensorflow-macos==2.9',
+					  'tensorflow-metal==0.5.0',
 					  'spacy>=3',
-                      'transformers>=4.11.3'         
+                      'transformers>=4.11.3'
                       ],
-
 	)
